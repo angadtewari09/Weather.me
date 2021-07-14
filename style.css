@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/*
+.Weather {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    padding: 50px;
+
+}*/
+body {
+    color:white;
+    background: linear-gradient(90deg,#1f0077 , #1f0051);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.nav-bar img {
+    margin:25px 0 0 80px;
+    cursor:pointer; 
+}
+.nav {
+    margin: -50px 0 0 50%;
+}
+.nav li {
+    display: inline-block;
+    margin: 0 0 0 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 900;
+}
+.nav button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding:10px 30px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    box-shadow: 1px 1px 2px #000;
+    cursor: pointer;
+    background: linear-gradient(90deg , #00b1f7 , #0088e1);
+    /*dip*/
+  
+}
+.nav button:hover {
+    background: linear-gradient(180deg , #00b1f7 , #0088e1);
+    
+    /*dip*/
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.interface h1 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 45px;
+}
+.news {
+    margin: 50px 0 50px 0;
+}
+
+.interface p {
+    letter-spacing: 5px;
+    font-family: 'Poppins' , sans-serif;
+    line-height: 40px;
+    font-size: 32px;
+}
+.material-icons-outlined {
+    font-family: 'Material Icons';
+    position: fixed;
+    margin:19px 0 0 30px;
+    font-size: 30px;
+}
+.interface input {
+    border:none;
+    outline:none;
+    height: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px 0 0 5px;
+    background: #705ed6;
+    margin-bottom: 25px;
+    padding: 20px 100px;
+    font-size: 21px;
+    letter-spacing: 1.5px;
+    color: whitesmoke;
+}
+::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size:21px;
+        word-spacing: 1.5px;
+        color: whitesmoke;
+}
+.interface button{
+    border: none;
+    outline: none;
+    height: 70px;
+    color: whitesmoke;
+    margin-left: -10px;
+    padding: 20px 50px;
+    border-radius: 0 5px 5px 0;
+    font-size:20px;
+    font-family: 'poppins',sans-serif;
+    font-weight: bolder;
+    background: linear-gradient(to right, #0088e1, #00b1f7);
+    cursor:pointer;
+}
+ button:hover {
+    background: linear-gradient( to left, #0088e1, #00b1f7);
+}
+.search-bar {
+    display: flex;
+}
+
+/*Right side of the page*/
+.info {
+    background-color: #3c0ab0;
+    width: 420px;
+    height:auto;
+    margin-top:-25px;
+    box-shadow: 2px 3px 10px #000 ;
+}
+.info .header {
+    background-color: #4719ba;
+    padding: 20px;
+}
+.header{
+    margin: 35px 0 10px 0;
+    text-indent: auto;
+}
+.info .report {
+    text-align: center;
+}
+#description {
+    top:20px;
+    font-size: 31px;
+    text-transform: capitalize;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    position: relative;
+    text-shadow: 1px 1px 2px #000;
+}
+.info .output {
+    display: flex;
+    justify-content:center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top:30px;
+}
+
+.digit {
+    margin-top: 12px;
+}
+.digit h1{
+    text-shadow: 1px 1px 3px #000;
+}
+.digit span {
+    font-size:18px;
+}
+.list_info {
+    margin: 10px 0 0 150px;
+    font-size: 22px;
+} 
+#wind {
+    position: relative;
+}
+#humidity {
+    position: relative;
+}
+#wind::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    right:90px;
+    top:10px;
+    margin-top:-5px;
+    background-image: url('icons/wind.png');
+    background-size:contain; 
+}
+#humidity::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    right:90px;
+    top:10px;
+    margin-top:-5px;
+    background-image: url('icons/humidity.png');
+    background-size: contain;
+}
+.converter {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 21px;
+    cursor:pointer;
+    padding-bottom:15px;
+}
