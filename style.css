@@ -77,12 +77,13 @@ body {
     line-height: 40px;
     font-size: 32px;
 }
+/*
 .material-icons-outlined {
     font-family: 'Material Icons';
     position: fixed;
     margin:19px 0 0 30px;
     font-size: 30px;
-}
+}*/
 .interface input {
     border:none;
     outline:none;
