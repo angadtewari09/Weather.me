@@ -18,8 +18,7 @@
                 <img src="icons/figma-Logo.png" width="280px" height="60px"> 
             </div>
             <div class="nav">
-                
-                <li><button>Source Code</button></li>
+                <li><button><a href="https://github.com/angadtewari09/Weather.me.git" target="_blank" style="text-decoration: none; color:white;font-family: 'Poppins',sans-serif;">Source Code</a></button></li>
             </div>
 
             <!--End of nav bar-->
@@ -37,9 +36,6 @@
                 <br>
                 <p>Business down the certain routes</p>
             </div>
-            <!--<span class="material-icons-outlined">
-                search
-            </span>-->
            <div class="search-bar">
             <input type="input" id="place" placeholder="Search here...." onfocus="this.value=''" autocomplete="off">
             <button onclick="weather(document.querySelector('#place').value)">Get Update</button>
@@ -48,19 +44,25 @@
         </div>
         <div class="info">
             <div class="header">
-                <h1> Today's Weather Update</h1>
+              <h1> Today's Weather Update</h1> 
             </div>  
             <div class="report">
-                <img src="icons/sunny.png" id="icon" width="200px" height="200px">
+               
+                <img src="icons/61nuuPxUvaL 1.png" id="icon" width="200px" height="200px">
                 <br>
-                <span id = "description">Sunny</span>
+                <span id = "description"></span>
+                <br>
+                <br>
+                <br>
+                <span class="feels_like">Feels Like: <span id="feels_like"></span></span>
             </div>
             <div class="output">
                 <div class="digit">
                     <h1 id="deg">0&deg;C</h1>
                     <br>
-                    <span id="min">0&deg;C</span>
-                    <span id="max"> / 0&deg;C</span>
+                    <span id="min"> 0&deg;C</span>
+                    <span> | </span>
+                    <span id="max">  0&deg;C</span>
                 </div>
                 <div class="list_info">
                     <h3 id="wind">0 mph</h3>
@@ -70,8 +72,8 @@
             </div>
             <br>
             <div class="converter">
-                <span id="celsius" onclick="con('celsius')">&deg; C </span>
-                <span id="fahrenhiet" onclick="con('fahrenhiet')">| &deg; F</span>
+                <span id="celsius" onclick="converter('celsius')">&deg; C </span>
+                <span id="fahrenhiet" onclick="converter('fahrenheit')">| &deg; F</span>
             </div>
             <br>
         </div>

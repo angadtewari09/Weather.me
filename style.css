@@ -18,12 +18,15 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+
 .nav-bar img {
-    margin:25px 0 0 80px;
     cursor:pointer; 
 }
-.nav {
-    margin: -50px 0 0 50%;
+.nav-bar {
+    display: flex;
+    margin:25px 0 0 80px;
+    width: auto;
+    justify-content: space-between;
 }
 .nav li {
     display: inline-block;
@@ -33,10 +36,12 @@ body {
     cursor: pointer;
     font-weight: 900;
 }
+
 .nav button {
     border: none;
     outline: none;
     border-radius: 5px;
+    width: auto;
     padding:10px 30px;
     font-size: 20px;
     color: whitesmoke;
@@ -45,6 +50,7 @@ body {
     box-shadow: 1px 1px 2px #000;
     cursor: pointer;
     background: linear-gradient(90deg , #00b1f7 , #0088e1);
+    margin-right: 80px;
     /*dip*/
   
 }
@@ -56,7 +62,7 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    margin-top: 8%;
+    margin-top: 6%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -88,11 +94,12 @@ body {
     border:none;
     outline:none;
     height: 70px;
+    width: 420px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 5px 0 0 5px;
     background: #705ed6;
     margin-bottom: 25px;
-    padding: 20px 100px;
+    padding: 10px 40px;
     font-size: 21px;
     letter-spacing: 1.5px;
     color: whitesmoke;
@@ -129,15 +136,15 @@ body {
     background-color: #3c0ab0;
     width: 420px;
     height:auto;
-    margin-top:-25px;
+    margin-top:-35px;
     box-shadow: 2px 3px 10px #000 ;
 }
 .info .header {
-    background-color: #4719ba;
+    background-color: #4719b7;
     padding: 20px;
 }
 .header{
-    margin: 35px 0 10px 0;
+    margin: 18px 0 10px 0;
     text-indent: auto;
 }
 .info .report {
@@ -163,6 +170,7 @@ body {
 
 .digit {
     margin-top: 12px;
+    font-family: 'Poppins',sans-serif;
 }
 .digit h1{
     text-shadow: 1px 1px 3px #000;
@@ -171,7 +179,7 @@ body {
     font-size:18px;
 }
 .list_info {
-    margin: 10px 0 0 150px;
+    margin: 19px 0 0 150px;
     font-size: 22px;
 } 
 #wind {
@@ -208,4 +216,15 @@ body {
     font-size: 21px;
     cursor:pointer;
     padding-bottom:15px;
+}
+.feels_like {
+    font-size: 21px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 550;
+}
+
+#deg {
+    font-family: 'Poppins',sans-serif;
+    font-size: 45px;
+    font-weight:400 ;
 }
