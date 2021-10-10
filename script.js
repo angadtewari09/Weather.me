@@ -176,7 +176,7 @@ function weather(input) {
 
 //function to convert into fahrenheit
 function converter(temperature) {
-    if(target === 1) {
+    if(target === 0) {
         alert("ENTER SOME CITY!!");
     }
     else if(temperature == 'fahrenheit') {
@@ -196,3 +196,4 @@ function converter(temperature) {
         document.querySelector("#feels_like").innerHTML = Math.round(feels_like) + "&deg; C";
     }
 }
+
