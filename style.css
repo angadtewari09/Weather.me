@@ -140,7 +140,7 @@ body {
 .info {
     background:linear-gradient(to left bottom, rgba(60, 10, 176, 1), #0088e1) ;
     width: 420px;
-    height:auto;
+    height:670px;
     margin-top:-35px;
     margin-left: auto;
     margin-right: auto;
@@ -150,10 +150,10 @@ body {
 }
 .info .header {
     background-color: #4719b7;
-    padding: 20px;
+    padding: 10px;
 }
 .header{
-    margin: 18px 0 10px 0;
+    margin: 10px 0 10px 0;
     text-indent: auto;
 }
 .info .report {
