@@ -17,6 +17,6 @@ ___
  ___
 
 ## Live Demo Link
-[Live Demo Link](https://objective-banach-b132b5.netlify.app)
+[Live Demo Link 👈](https://objective-banach-b132b5.netlify.app)
 
 ___
