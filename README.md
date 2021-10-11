@@ -11,6 +11,7 @@ ___
 ## Built with
 - HTML
 - CSS
+- Javascript
 - OpenWeatherAPI
 - Github Actions
  
