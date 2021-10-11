@@ -6,7 +6,7 @@ This allows you to swarch for a specific city and get the current temperature , 
 It also has a toggle button to switch between the Centigrade scale and the Fahrenheit scale.
 All you need to do is type in the name of the city and click on the search button.
 
-___
+---
 
 ## Built with
 - HTML
